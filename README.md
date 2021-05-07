@@ -17,7 +17,6 @@ Every desired setting has to be hardcoded in "mnca.py" after downloading in the 
 - **m** is the factor by which the output image is scaled.
 - **videoname** is the output videos filename.
 - **framerate** is the framerate of output video.
-- **saveVid** is bool if video should be saved.
 - **showImg** is bool if image should be shown while sim is run.
 - **trail** is bool if fading trail should be shown behind living cells.
 - **colored** is bool if output should be colored.
