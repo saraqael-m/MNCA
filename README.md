@@ -9,7 +9,7 @@ Required python 3.7 modules:
 My code isn't really fast or clean, I just wanted to show people how beautiful this thing is which Slackermanz discovered with an easy to use tool to explore the vast world of mnca's.
 My youtube video to explain how a mnca works: WIP
 
-Every desired setting has to be hardcoded in "mnca.py" after downloading in the following first variables:
+Every desired setting has to be hardcoded in "mnca.py" after downloading. The following variables are of interest:
 - **nhThresh** determines the rules of the mnca.
 - **folder** is the folder with neighborhood images (black and white, each pixel is one cell).
 - **start** the dir of the starting configuration for the mnca based on a black and white image.
