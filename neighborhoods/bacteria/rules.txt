@@ -1,0 +1,2 @@
+normal: [[[0,17,False],[40,42,True]],[[10,13,True]],[[9,21,False]],[[78,89,False],[108,500,False]]]
+notrail: [[[0,32,False],[24,46,True]],[[10,25,True]],[[5,22,False]],[[65,75,False],[109,500,False]]]

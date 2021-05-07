@@ -1,0 +1,2 @@
+slow: [[[0,20,False],[40,42,True]],[[10,13,True]],[[7,25,False]],[[79,90,False],[107,500,False]]]
+fast: [[[0,17,False],[40,42,True]],[[10,13,True]],[[9,21,False]],[[78,89,False],[108,500,False]]]
