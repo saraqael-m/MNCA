@@ -7,21 +7,21 @@ import os
 import random
 from scipy.ndimage import correlate
 
-# values that determine if cell lives/dies based on number of living cells in neighborhood
+# These are the important variables
 nhThresh = [[[0,32,False],[24,46,True]],[[10,25,True]],[[5,22,False]],[[65,75,False],[109,500,False]]]
-folder = "neighborhoods/bacteria" # folder with neighborhood images
+folder = "neighborhoods/bacteria" 
 start = "starts/start100x100.png"
 colors = [(52,52,250),(97,240,81),(240,81,84),(232,81,240),(81,213,240),(240,237,81)]
 m = 4
 videoname = "testmnca.mp4"
 framerate = 4
-saveVid = True
 showImg = True
 trail = False
 colored = True
 showDying = True
 every = 1
 
+# code starts
 def draw(event,x,y,flags,param):
     global img, m
     if event == cv2.EVENT_LBUTTONDBLCLK:
