@@ -151,10 +151,10 @@ while True:
                 break
 
 if saveVid:
-	_, _, filenames = next(os.walk("C:\\Users\\maxim\\Desktop\\rem\\programming\\python\\sim\\cellularAutomata\\mnca"))
+	_, _, filenames = next(os.walk(os.getcwd()+"\\videos"))
 	while videoname in filenames:
 		videoname = "saved_"+videoname
-	out = cv2.VideoWriter(videoname, cv2.VideoWriter_fourcc(*'mp4v'), framerate, (w*m,h*m), colored)
+	out = cv2.VideoWriter("videos/"+videoname, cv2.VideoWriter_fourcc(*'mp4v'), framerate, (w*m,h*m), colored)
 	for i in range(len(imgArr)):
 	    out.write(imgArr[i])
 	cv2.destroyAllWindows()
