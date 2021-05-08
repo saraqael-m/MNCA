@@ -1,7 +1,7 @@
 # MNCA
 Contains python program to simulate Multiple Neighborhood Cellular Automata (MNCA). Inspired by [Slackermanz](https://github.com/Slackermanz/VulkanAutomata).
 
-Required python 3.7 modules: 
+Required **python 3.7** modules: 
 - cv2
 - numpy
 - scipy
