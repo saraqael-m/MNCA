@@ -14,7 +14,7 @@ The neighborhoods folder contains folders with different rules for the mnca. The
 Every desired setting has to be hardcoded in [mncaSim.py](mncaSim.py) after downloading. The following variables are of interest:
 - **nhThresh** determines the value ranges for the neighborhoods of the mnca (has as many sublists as neighborhoods, each sublist can contain as many lists as you want, depending on how many conditions you want to use, a condition is formed like this: `[min,max,True/False]`, where min and max is the value range for living cells in the neighborhood and the bool determines wether the cell in the center dies or is born).
 - **folder** is the folder with neighborhood images (black and white, each pixel is one cell).
-- **start** the dir of the starting configuration for the mnca based on a black and white image.
+- **start** the dir of the starting configuration for the mnca based on a black and white image (black pixels are living, white are dead; reversed in output).
 - **colors** is how living (and dying) cells are colored by different neighborhoods (new colors have to be added if more than 6 neighborhoods are used). Colors are in BGR (blue green red) format, not RGB.
 - **m** is the factor by which the output image is scaled.
 - **videoname** is the output videos filename.
