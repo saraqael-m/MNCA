@@ -7,7 +7,7 @@ Required **python 3.7** modules:
 - scipy
 
 My code isn't really fast or clean, I just wanted to show people how beautiful this thing is which [Slackermanz](https://github.com/Slackermanz/VulkanAutomata) discovered, with an easy to use tool to explore the vast world of mnca's.
-My youtube video to explain how a mnca works: WIP
+My youtube video to explain how a mnca works: https://youtu.be/QySHxx_L3G0
 
 The neighborhoods folder contains folders with different rules for the mnca. The names of the files have to be chosen so that they are in the correct order when read by the program. The neighborhood png's have to be black and white (other pixels get rounded to nearest black/white pixel). The *rules.txt* files in each folder aren't read in by the program and they contain the rules for the neighborhoods (value range to kill/revive cells). Those have to be manually pasted into the *nhThresh* variable as seen below. I recommend you to create your own and save them to their corresponding directory if you experiment, so that you don't forget them.
 
