@@ -6,9 +6,9 @@ My youtube video to explain how an mnca works: https://youtu.be/QySHxx_L3G0
 
 ## Dependencies
 Required **python 3.7** (was only tested with ver. 3.7.9, should also work with others) modules: 
-- cv2
-- numpy
-- scipy
+- cv2 (`pip install opencv-python`)
+- numpy (`pip install numpy`)
+- scipy (`pip install scipy`)
 
 They can all be installed using the pip command in cmd.
 
