@@ -30,6 +30,7 @@ Every desired setting has to be hardcoded in [mncaSim.py](mncaSim.py) after down
 While the sim is running different buttons can be used to control the sim. Those are listed in the [keys.txt](keys.txt) file.
 Run the [mncaSim.py](mncaSim.py) file in the same dir as everything else. Don't try to run it with cmd, use an IDE like IDLE or [*Sublime Text*](https://www.sublimetext.com/). The starting configuration are stored in the images inside the [starts](starts) directory. The videos are saved in the [videos](videos) directory.
 
+## Examples
 https://user-images.githubusercontent.com/80643194/117512823-a7c83780-af90-11eb-903a-9cd41344d056.mp4
 
 https://user-images.githubusercontent.com/80643194/117512906-cfb79b00-af90-11eb-9a0f-7f7210640695.mp4
