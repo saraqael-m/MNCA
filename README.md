@@ -26,7 +26,7 @@ Every desired setting has to be hardcoded in [mncaSim.py](mncaSim.py) after down
 - **every** is that only every nth frame in the preview image should be shown.
 
 While the sim is running different buttons can be used to change the sim. Those are listed in the [keys.txt](keys.txt) file.
-Run the [mncaSim.py](mncaSim.py) file in the same dir as everything else. Don't try to run it with cmd, use something like [*Sublime Text*](https://www.sublimetext.com/). The starting configuration are stored in the images inside the [starts](starts) directory. The videos are saved in the [videos](videos) directory.
+Run the [mncaSim.py](mncaSim.py) file in the same dir as everything else. Don't try to run it with cmd, use an IDE like IDLE or [*Sublime Text*](https://www.sublimetext.com/). The starting configuration are stored in the images inside the [starts](starts) directory. The videos are saved in the [videos](videos) directory.
 
 https://user-images.githubusercontent.com/80643194/117512823-a7c83780-af90-11eb-903a-9cd41344d056.mp4
 
