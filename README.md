@@ -1,7 +1,7 @@
 # MNCA
 Contains python program to simulate Multiple Neighborhood Cellular Automata (MNCA). Inspired by [Slackermanz](https://github.com/Slackermanz/VulkanAutomata).
 
-My code isn't really fast or clean, I just wanted to show people how beautiful the mnca's are which [Slackermanz](https://github.com/Slackermanz/VulkanAutomata) discovered, with an easy to use tool to explore the vast world of mnca's.
+My code isn't really fast or clean, I just wanted to show people how beautiful this kind of automaton is which [Slackermanz](https://github.com/Slackermanz/VulkanAutomata) discovered, with an easy to use tool to explore the vast world of mnca's.
 My youtube video to explain how an mnca works: https://youtu.be/QySHxx_L3G0
 
 ## Dependencies
