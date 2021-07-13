@@ -4,8 +4,8 @@ a - just reload neighborhood files
 l - change start image
 r - just reload start image
 p - pause sim
-x - stop and saveVid
-esc - just stop
-left click - create life (2 rects)
-dbl left - create life (circle)
+x - stop and save video
+esc - just stop without saving video
+left click - create life (2 rectangles)
+double left - create life (circle)
 right click - destroy life
