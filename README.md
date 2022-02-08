@@ -5,7 +5,8 @@ My code isn't really fast or clean, I just wanted to show people how beautiful t
 My youtube video to explain how an mnca works: https://youtu.be/QySHxx_L3G0
 
 ## Dependencies
-Required **python 3.7** (was only tested with ver. 3.7.9, should also work with others) modules: 
+Only tested in **Python 3.7** (specifically with ver. 3.7.9, should also work with others though).
+Required modules: 
 - cv2 (`pip install opencv-python`)
 - numpy (`pip install numpy`)
 - scipy (`pip install scipy`)
